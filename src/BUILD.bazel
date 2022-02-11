@@ -1,0 +1,16 @@
+cc_library(
+    name = "libmabain",
+    srcs = glob([
+        "*.cpp",
+        "util/*.cpp",
+    ]),
+    hdrs = glob([
+        "*.h",
+        "util/*.h",
+    ]),
+    includes = [
+        ".",
+        "util",
+    ],
+    visibility = ["//binaries:__pkg__"],
+)

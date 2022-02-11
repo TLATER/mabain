@@ -1,0 +1,5 @@
+workspace(name = "mabain")
+
+# Dependencies
+load("//deps:deps.bzl", "readline")
+readline()

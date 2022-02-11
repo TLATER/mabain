@@ -10,3 +10,4 @@ data/*
 src/test/key_list*
 src/test/mb_test*
 tmp/*
+/bazel-*
