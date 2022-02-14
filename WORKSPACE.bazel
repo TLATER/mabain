@@ -1,5 +1,6 @@
 workspace(name = "mabain")
 
 # Dependencies
-load("//deps:deps.bzl", "readline")
-readline()
+load("//deps:deps.bzl", "pull_deps")
+
+pull_deps()
